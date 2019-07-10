@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF915E8B22D6595600CA33A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF915E8A22D6595600CA33A2 /* AppDelegate.m */; };
+		FF915E8E22D6595600CA33A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF915E8D22D6595600CA33A2 /* ViewController.m */; };
+		FF915E9122D6595600CA33A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF915E8F22D6595600CA33A2 /* Main.storyboard */; };
+		FF915E9322D6595600CA33A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF915E9222D6595600CA33A2 /* Assets.xcassets */; };
+		FF915E9622D6595600CA33A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF915E9422D6595600CA33A2 /* LaunchScreen.storyboard */; };
+		FF915E9922D6595600CA33A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF915E9822D6595600CA33A2 /* main.m */; };
+		FF915EA322D6595700CA33A2 /* ParseLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF915EA222D6595700CA33A2 /* ParseLabTests.m */; };
+		FF915EAE22D6595700CA33A2 /* ParseLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF915EAD22D6595700CA33A2 /* ParseLabUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF915E9F22D6595700CA33A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF915E7E22D6595600CA33A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF915E8522D6595600CA33A2;
+			remoteInfo = ParseLab;
+		};
+		FF915EAA22D6595700CA33A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF915E7E22D6595600CA33A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF915E8522D6595600CA33A2;
+			remoteInfo = ParseLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF915E8622D6595600CA33A2 /* ParseLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF915E8922D6595600CA33A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF915E8A22D6595600CA33A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF915E8C22D6595600CA33A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF915E8D22D6595600CA33A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF915E9022D6595600CA33A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF915E9222D6595600CA33A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF915E9522D6595600CA33A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF915E9722D6595600CA33A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF915E9822D6595600CA33A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF915E9E22D6595700CA33A2 /* ParseLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF915EA222D6595700CA33A2 /* ParseLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseLabTests.m; sourceTree = "<group>"; };
+		FF915EA422D6595700CA33A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF915EA922D6595700CA33A2 /* ParseLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF915EAD22D6595700CA33A2 /* ParseLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseLabUITests.m; sourceTree = "<group>"; };
+		FF915EAF22D6595700CA33A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF915E8322D6595600CA33A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF915E9B22D6595700CA33A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF915EA622D6595700CA33A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF915E7D22D6595600CA33A2 = {
+			isa = PBXGroup;
+			children = (
+				FF915E8822D6595600CA33A2 /* ParseLab */,
+				FF915EA122D6595700CA33A2 /* ParseLabTests */,
+				FF915EAC22D6595700CA33A2 /* ParseLabUITests */,
+				FF915E8722D6595600CA33A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF915E8722D6595600CA33A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF915E8622D6595600CA33A2 /* ParseLab.app */,
+				FF915E9E22D6595700CA33A2 /* ParseLabTests.xctest */,
+				FF915EA922D6595700CA33A2 /* ParseLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF915E8822D6595600CA33A2 /* ParseLab */ = {
+			isa = PBXGroup;
+			children = (
+				FF915E8922D6595600CA33A2 /* AppDelegate.h */,
+				FF915E8A22D6595600CA33A2 /* AppDelegate.m */,
+				FF915E8C22D6595600CA33A2 /* ViewController.h */,
+				FF915E8D22D6595600CA33A2 /* ViewController.m */,
+				FF915E8F22D6595600CA33A2 /* Main.storyboard */,
+				FF915E9222D6595600CA33A2 /* Assets.xcassets */,
+				FF915E9422D6595600CA33A2 /* LaunchScreen.storyboard */,
+				FF915E9722D6595600CA33A2 /* Info.plist */,
+				FF915E9822D6595600CA33A2 /* main.m */,
+			);
+			path = ParseLab;
+			sourceTree = "<group>";
+		};
+		FF915EA122D6595700CA33A2 /* ParseLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF915EA222D6595700CA33A2 /* ParseLabTests.m */,
+				FF915EA422D6595700CA33A2 /* Info.plist */,
+			);
+			path = ParseLabTests;
+			sourceTree = "<group>";
+		};
+		FF915EAC22D6595700CA33A2 /* ParseLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF915EAD22D6595700CA33A2 /* ParseLabUITests.m */,
+				FF915EAF22D6595700CA33A2 /* Info.plist */,
+			);
+			path = ParseLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF915E8522D6595600CA33A2 /* ParseLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF915EB222D6595700CA33A2 /* Build configuration list for PBXNativeTarget "ParseLab" */;
+			buildPhases = (
+				FF915E8222D6595600CA33A2 /* Sources */,
+				FF915E8322D6595600CA33A2 /* Frameworks */,
+				FF915E8422D6595600CA33A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseLab;
+			productName = ParseLab;
+			productReference = FF915E8622D6595600CA33A2 /* ParseLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF915E9D22D6595700CA33A2 /* ParseLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF915EB522D6595700CA33A2 /* Build configuration list for PBXNativeTarget "ParseLabTests" */;
+			buildPhases = (
+				FF915E9A22D6595700CA33A2 /* Sources */,
+				FF915E9B22D6595700CA33A2 /* Frameworks */,
+				FF915E9C22D6595700CA33A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF915EA022D6595700CA33A2 /* PBXTargetDependency */,
+			);
+			name = ParseLabTests;
+			productName = ParseLabTests;
+			productReference = FF915E9E22D6595700CA33A2 /* ParseLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF915EA822D6595700CA33A2 /* ParseLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF915EB822D6595700CA33A2 /* Build configuration list for PBXNativeTarget "ParseLabUITests" */;
+			buildPhases = (
+				FF915EA522D6595700CA33A2 /* Sources */,
+				FF915EA622D6595700CA33A2 /* Frameworks */,
+				FF915EA722D6595700CA33A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF915EAB22D6595700CA33A2 /* PBXTargetDependency */,
+			);
+			name = ParseLabUITests;
+			productName = ParseLabUITests;
+			productReference = FF915EA922D6595700CA33A2 /* ParseLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF915E7E22D6595600CA33A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = michaelvargas;
+				TargetAttributes = {
+					FF915E8522D6595600CA33A2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FF915E9D22D6595700CA33A2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FF915E8522D6595600CA33A2;
+					};
+					FF915EA822D6595700CA33A2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FF915E8522D6595600CA33A2;
+					};
+				};
+			};
+			buildConfigurationList = FF915E8122D6595600CA33A2 /* Build configuration list for PBXProject "ParseLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF915E7D22D6595600CA33A2;
+			productRefGroup = FF915E8722D6595600CA33A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF915E8522D6595600CA33A2 /* ParseLab */,
+				FF915E9D22D6595700CA33A2 /* ParseLabTests */,
+				FF915EA822D6595700CA33A2 /* ParseLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF915E8422D6595600CA33A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF915E9622D6595600CA33A2 /* LaunchScreen.storyboard in Resources */,
+				FF915E9322D6595600CA33A2 /* Assets.xcassets in Resources */,
+				FF915E9122D6595600CA33A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF915E9C22D6595700CA33A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF915EA722D6595700CA33A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF915E8222D6595600CA33A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF915E8E22D6595600CA33A2 /* ViewController.m in Sources */,
+				FF915E9922D6595600CA33A2 /* main.m in Sources */,
+				FF915E8B22D6595600CA33A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF915E9A22D6595700CA33A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF915EA322D6595700CA33A2 /* ParseLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF915EA522D6595700CA33A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF915EAE22D6595700CA33A2 /* ParseLabUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF915EA022D6595700CA33A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF915E8522D6595600CA33A2 /* ParseLab */;
+			targetProxy = FF915E9F22D6595700CA33A2 /* PBXContainerItemProxy */;
+		};
+		FF915EAB22D6595700CA33A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF915E8522D6595600CA33A2 /* ParseLab */;
+			targetProxy = FF915EAA22D6595700CA33A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF915E8F22D6595600CA33A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF915E9022D6595600CA33A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF915E9422D6595600CA33A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF915E9522D6595600CA33A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF915EB022D6595700CA33A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF915EB122D6595700CA33A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF915EB322D6595700CA33A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82F2G2LCDZ;
+				INFOPLIST_FILE = ParseLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michael.vargas99-gmail.com.ParseLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF915EB422D6595700CA33A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82F2G2LCDZ;
+				INFOPLIST_FILE = ParseLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michael.vargas99-gmail.com.ParseLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF915EB622D6595700CA33A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82F2G2LCDZ;
+				INFOPLIST_FILE = ParseLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michael.vargas99-gmail.com.ParseLabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseLab.app/ParseLab";
+			};
+			name = Debug;
+		};
+		FF915EB722D6595700CA33A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82F2G2LCDZ;
+				INFOPLIST_FILE = ParseLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michael.vargas99-gmail.com.ParseLabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseLab.app/ParseLab";
+			};
+			name = Release;
+		};
+		FF915EB922D6595700CA33A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82F2G2LCDZ;
+				INFOPLIST_FILE = ParseLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michael.vargas99-gmail.com.ParseLabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParseLab;
+			};
+			name = Debug;
+		};
+		FF915EBA22D6595700CA33A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82F2G2LCDZ;
+				INFOPLIST_FILE = ParseLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michael.vargas99-gmail.com.ParseLabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParseLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF915E8122D6595600CA33A2 /* Build configuration list for PBXProject "ParseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF915EB022D6595700CA33A2 /* Debug */,
+				FF915EB122D6595700CA33A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF915EB222D6595700CA33A2 /* Build configuration list for PBXNativeTarget "ParseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF915EB322D6595700CA33A2 /* Debug */,
+				FF915EB422D6595700CA33A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF915EB522D6595700CA33A2 /* Build configuration list for PBXNativeTarget "ParseLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF915EB622D6595700CA33A2 /* Debug */,
+				FF915EB722D6595700CA33A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF915EB822D6595700CA33A2 /* Build configuration list for PBXNativeTarget "ParseLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF915EB922D6595700CA33A2 /* Debug */,
+				FF915EBA22D6595700CA33A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF915E7E22D6595600CA33A2 /* Project object */;
+}
